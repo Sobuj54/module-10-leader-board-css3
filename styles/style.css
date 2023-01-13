@@ -82,12 +82,19 @@ hr {
   color: #562eff;
 }
 /* courses style */
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
 .course .course-banner img {
   width: 224px;
   height: 104px;
 }
 .course-info {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* here we can see that there is no space between these two classes..this means this two classes are on the same element */
 .fa-star {
@@ -98,4 +105,10 @@ hr {
 }
 .fa-star.empty {
   color: #aeaeae;
+}
+.course-duration {
+  width: 94px;
+  height: 30px;
+  background-color: #ffe4e8;
+  border-radius: 14.6913px;
 }

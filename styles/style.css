@@ -81,3 +81,21 @@ hr {
   font-size: 16px;
   color: #562eff;
 }
+/* courses style */
+.course .course-banner img {
+  width: 224px;
+  height: 104px;
+}
+.course-info {
+  display: flex;
+}
+/* here we can see that there is no space between these two classes..this means this two classes are on the same element */
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
